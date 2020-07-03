@@ -1,8 +1,3 @@
-# @vue/cli
+# cli-utils
 
-``` sh
-npm install -g @vue/cli
-vue create my-project
-```
-
-[Full Docs](https://cli.vuejs.org/)
+## 辅助函数库

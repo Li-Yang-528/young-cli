@@ -1,8 +1,3 @@
-# @vue/cli
+# cli-template
 
-``` sh
-npm install -g @vue/cli
-vue create my-project
-```
-
-[Full Docs](https://cli.vuejs.org/)
+## 模板相关

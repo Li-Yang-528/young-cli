@@ -1,8 +1,5 @@
-# @vue/cli
+# cli-commander
 
-``` sh
-npm install -g @vue/cli
-vue create my-project
-```
+## 命令行工具
 
-[Full Docs](https://cli.vuejs.org/)
+

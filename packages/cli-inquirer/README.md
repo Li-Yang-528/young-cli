@@ -1,8 +1,5 @@
-# @vue/cli
+# cli-inquirer
 
-``` sh
-npm install -g @vue/cli
-vue create my-project
-```
+## 交互设计
 
-[Full Docs](https://cli.vuejs.org/)
+
