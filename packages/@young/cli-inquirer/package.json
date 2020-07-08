@@ -1,5 +1,5 @@
 {
-  "name": "cli-commander",
+  "name": "cli-inquirer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "commander": "^5.1.0"
+    "inquirer": "^7.3.0"
   }
 }

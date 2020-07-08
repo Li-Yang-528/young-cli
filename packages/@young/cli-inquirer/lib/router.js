@@ -2,7 +2,7 @@ module.exports = ( inquirer ) => {
     inquirer.push(
         {
             type: 'list',
-            name: 'router',
+            name: 'model',
             message: '请选择路由模式',
             choices: [
                 { name: 'history', value: 'history' },
@@ -12,7 +12,7 @@ module.exports = ( inquirer ) => {
         },
         {
             type: 'list',
-            name: 'router',
+            name: 'type',
             message: '请选择路由生成规则',
             choices: [
                 { name: '手动', value: 'custom' },

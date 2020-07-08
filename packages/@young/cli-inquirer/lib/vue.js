@@ -3,7 +3,8 @@ module.exports = ( inquirer ) => {
         {
             type: 'confirm',
             name: 'jsx',
-            message: '请选择是否使用jsx'
+            message: '请选择是否使用jsx',
+            default: true
         }
     )
 }
