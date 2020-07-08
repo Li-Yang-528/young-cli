@@ -12,12 +12,13 @@ function glob( patterns, options) {
             gitignore: true,
             ignore: [ '**/node_modules/**', '**/.git/**' ],
             dot: true,
-            absolute: false
+            absolute: false,
+            cwd: __dirname
         }, options)
     );
 };
 
-glob( './lib/**' ).forEach( filename => {
+glob( './lib/**').forEach( filename => {
     Object.assign( exports, require( filename ) )
 });
 

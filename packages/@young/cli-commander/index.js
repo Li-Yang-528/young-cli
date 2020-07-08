@@ -1,4 +1,5 @@
 const program = require( 'commander' );
+const inquirer = require('inquirer')
 module.exports = function () {
     program
         .version( require( '../../package' ).version, '-v, --version' )
