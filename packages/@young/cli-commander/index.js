@@ -11,5 +11,19 @@ program
         console.log( res )
     } )
 
+program
+    .command( 'serve' )
+    .description( '启动开发环境' )
+    .action( res => {
+        console.log( res )
+    } )
+
+program
+    .command( 'build' )
+    .description( '启动构建应用' )
+    .action( res => {
+        console.log( res )
+    } )
+
 program.parse( process.argv )
 
