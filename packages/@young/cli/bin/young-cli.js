@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-require('../../cli-commander')()
+require( '../../cli-commander' )
