@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "前端脚手架",
   "main": "packages/@young/cli/bin/young-cli.js",
+  "bin": {
+    "young": "packages/@young/cli/bin/young-cli.js"
+  },
   "directories": {
     "packages": "packages"
   },
