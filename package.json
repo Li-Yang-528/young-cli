@@ -2,9 +2,9 @@
   "name": "young-cli",
   "version": "1.0.0",
   "description": "前端脚手架",
-  "main": "index.js",
+  "main": "packages/@young/cli/bin/young-cli.js",
   "directories": {
-    "lib": "lib"
+    "packages": "packages"
   },
   "files": [
     "packages/@young/*"

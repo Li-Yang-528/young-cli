@@ -1,5 +1,5 @@
 const inquirer = require( 'inquirer' );
-const { glob } = require( '../cli-util' );
+const { glob, logo } = require( '../cli-util' );
 function getQuestion() {
     return glob( './lib/**', { cwd: __dirname } ).reduce( ( init, paths ) => {
         require( paths )( init )
@@ -7,7 +7,8 @@ function getQuestion() {
     }, []);
 }
 
-module.exports = function getInquirer() {
+module.exports = function getInquirer( ) {
+    logo();
     return inquirer.prompt( getQuestion() )
 }
 

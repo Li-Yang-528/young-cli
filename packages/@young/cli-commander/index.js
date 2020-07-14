@@ -7,8 +7,10 @@ program
 program
     .command( 'create <app-name>' )
     .description( '创建一个项目' )
-    .action( res => {
-        console.log( res )
+    .action( appname => {
+        require( '../cli-inquirer' )().then( answer => { 
+            console.log( process.cwd() )
+        })
     } )
 
 program
@@ -25,5 +27,5 @@ program
         console.log( res )
     } )
 
-program.parse( process.argv )
+program.parse( process.argv );
 
