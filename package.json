@@ -9,15 +9,21 @@
   "directories": {
     "packages": "packages"
   },
-  "files": [
-    "packages/@young/*"
-  ],
-  "workspaces": [
-    "packages/@young/*"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "layah",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "ejs": "^3.1.3",
+    "execa": "^4.0.3",
+    "globby": "^11.0.1",
+    "inquirer": "^7.3.2",
+    "ora": "^4.0.4",
+    "webpack": "^4.43.0",
+    "webpack-chain": "^6.5.0",
+    "webpack-merge": "^5.0.9"
+  }
 }
