@@ -1,6 +1,6 @@
 {
   "name": "young-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "前端脚手架",
   "main": "packages/@young/cli/bin/young-cli.js",
   "bin": {
