@@ -20,12 +20,12 @@ yarn global add young-cli
 
 ## 命令行工具
 
-- create <app-name> 创建新项目
+- create <app-name> -创建新项目
 
 ![create.png](https://i.loli.net/2020/07/16/Zw6hvCzn8dYSfpk.png)
 
-- serve  启动本地开发服务
-- build  启动打包服务
+- serve -启动本地开发服务
+- build -启动打包服务
 
 
 
